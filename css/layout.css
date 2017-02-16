@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrap{
+	width:auto;
+	min-height:auto;
+	margin:0 auto;
+	padding:0;
+	position:relative;
+}
+
+.box{
+	width:270px;
+	height:auto;
+	padding:10px;
+	border:none;
+	float:left;
+	margin:10px 0;
+	-webkit-transition:opacity 2s ease;	
+	transition:opacity 2s ease;
+}
+
+.cbox{
+	clear:left;	
+}
+
+.info{
+	width:270px;
+	height:auto;
+	border-radius:5px;
+	box-shadow:0 0 6px #666;
+	background:#fff;	
+}
+
+.pic{
+	width:250px;
+	height:auto;
+	margin:5px auto;	
+	padding-top:10px;
+	-webkit-transition:all 2s ease;
+	-moz-transition:all 2s ease;
+	transition:all 2s ease;
+	cursor:pointer;
+}
+
+.pic:hover{
+	opacity:0.6;
+}
+
+.pic img{
+	width:250px;
+	border-radius:3px;	
+}
+
+.title{
+	width:250px;	
+	height:40px;
+	margin:0 auto;
+	line-height:40px;
+	text-align:center;
+	color:#666;
+	font-size:18px;
+	font-weight:bold;
+	overflow:hidden;
+}
